@@ -1,0 +1,12 @@
+/* ==== MIGRATE ==== */
+
+CREATE TABLE `users` (
+`id` BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+`fname` VARCHAR(255) NOT NULL,
+`lname` VARCHAR(255) NOT NULL UNIQUE,
+`email` VARCHAR(255) NOT NULL,
+`password` VARCHAR(255) NOT NULL
+);
+
+/* ==== MIGRATE ==== */
+DROP TABLE IF EXISTS `users`;
