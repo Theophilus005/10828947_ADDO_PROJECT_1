@@ -1,2 +1,2 @@
-# 10828947_ADDO_PROJECT_1
+# Simple User Registration System (PHP and MySQL)
 A user registration system made with PHP and MySQL.
